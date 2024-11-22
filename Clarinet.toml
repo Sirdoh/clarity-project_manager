@@ -1,0 +1,23 @@
+[project]
+name = "clar-proj"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+cache_dir = "/home/runner/repo/clar-proj/./.requirements"
+boot_contracts = ["pox", "costs-v2", "bns"]
+[contracts.project_hub]
+path = "contracts/project_hub.clar"
+
+[repl]
+costs_version = 2
+parser_version = 2
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
