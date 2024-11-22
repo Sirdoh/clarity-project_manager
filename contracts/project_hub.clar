@@ -1,5 +1,5 @@
-;; Contract Name: Clarity Project Manager MVP
-;; Description: A basic decentralized system to manage code repositories.
+;; Contract Name: Clarity Project Manager
+;; Description: The decentralized system to manage code repositories.
 ;; -------------------------------
 ;; Storage Variables and Data Maps
 ;; -------------------------------
